@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "Storagename": {
+            "value": "stgdemogs"
+        },
+        "accesstier": {
+            "value": "hot"
+        },
+        "subnetid": {
+            "value": "/subscriptions/13252db6-6024-4c8d-9585-d6901a554128/resourceGroups/GS-P-NETWORK/providers/Microsoft.Network/virtualNetworks/GS-P-VNET-10-0-0-0-24/subnets/GS-P-SUBNET-10-0-0-0-24"
+        },
+        "SKU": {
+            "value": "Standard_LRS"
+        }
+    }
+}
