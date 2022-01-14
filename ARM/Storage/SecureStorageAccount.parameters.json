@@ -3,16 +3,16 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "Storagename": {
-            "value": "stgdemogs"
+            "value": "" // StorageAccountName
         },
         "accesstier": {
-            "value": "hot"
+            "value": "h" // Access Tier 
         },
         "subnetid": {
-            "value": "/subscriptions/13252db6-6024-4c8d-9585-d6901a554128/resourceGroups/GS-P-NETWORK/providers/Microsoft.Network/virtualNetworks/GS-P-VNET-10-0-0-0-24/subnets/GS-P-SUBNET-10-0-0-0-24"
+            "value": "" // SubnetID
         },
         "SKU": {
-            "value": "Standard_LRS"
+            "value": "" // SKU: Standard_LRS for example
         }
     }
 }
